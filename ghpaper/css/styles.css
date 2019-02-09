@@ -24,11 +24,16 @@ img{
 body{
     font-size: 100%;
     font-family: 'Archivo',Fallback, sans-serif;
-    background:#ffcc99; 
+    background:#383838; 
+}
+
+p, h1, h3{
+    padding-left: 3%;
+    text-align: justify;
 }
 
 header{
-    background:#b1ebff;
+    background:#83B4B3;
 /*    width:940px;*/
     width:75%;
     margin:0 auto;
@@ -45,7 +50,7 @@ header{
 #primary{
     height:50px;
     line-height:50px;
-    background:#ffcc99;
+    background:#097392;
     clear:both;
 }
 
@@ -77,14 +82,26 @@ header{
 .about #primary li:nth-child(4) a,
 .contact #primary li:nth-child(5) a{
     background: #009999;
-    color: #fff;
+    color: #fff0ce;
 }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 75%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+  }
 
 /**** End Navigation ****/
 
 #wrapper{
     width:75%;
-    background:#fff;
+    background:#FFF0CE;
     margin:0 auto; 
 }
 
@@ -94,7 +111,7 @@ footer{
     height:50px;
     line-height:50px;
     clear:both;
-    background:#b1ebff; 
+    background:#83B4B3; 
 }
 
 footer ul{
