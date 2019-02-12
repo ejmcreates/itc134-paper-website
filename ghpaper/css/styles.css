@@ -9,7 +9,9 @@
 
 img{
     max-width:100%;
-    display:block; 
+    display:block;
+    float:right;
+    margin-left: 20px;
 }
 
 /* latin */
@@ -58,7 +60,7 @@ header a{
 #primary{
     height:50px;
     line-height:50px;
-    background:#097392;
+    background:#009999;
     clear:both;
 }
 
@@ -80,17 +82,8 @@ header a{
 }
 
 #primary a:hover{
-    background:#009999;
+    background:#097392;
     color:#fff;
-}
-
-.home #primary li:nth-child(1) a,
-.explore #primary li:nth-child(2) a,
-.trips #primary li:nth-child(3) a,
-.about #primary li:nth-child(4) a,
-.contact #primary li:nth-child(5) a{
-    background: #009999;
-    color: #fff0ce;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -113,6 +106,14 @@ header a{
     margin:0 auto; 
 }
 
+blockquote{
+    display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 60px;
+  margin-right: 60px;
+    font-style: italic;
+}
 
 /**** Footer ****/
 footer{
