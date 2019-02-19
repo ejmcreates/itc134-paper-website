@@ -12,6 +12,7 @@ img{
     display:block;
     float:right;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* latin */
@@ -116,10 +117,10 @@ blockquote{
 }
 
 .list li{
-    list-style-type: none;
+    list-style-type:circle;
     list-style-position: inside;
     margin-left: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 /**** Footer ****/
 footer{
